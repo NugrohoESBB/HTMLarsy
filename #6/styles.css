@@ -6,8 +6,17 @@ table, th, td {
 th {
     background-color: #04d9f5;
 }
-
+/* contoh beberapa data yg bisa berwarna */
 #tr3, #tr5 {
     background-color: #34f504;
 }
 
+/* contoh kalau tidak ada id */
+/* tr {
+    background-color: #f5f504;
+} */
+
+th, td {
+    padding: 30px;
+    text-align: center;
+}
