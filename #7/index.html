@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi 7 - Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+
+        <br><br>
+        
+        <input type="reset" value="Reset Form">
+        <br><br>
+
+        <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan
+        <input type="radio" name="gender" value="Perempuan"> Perempuan
+        <br><br>
+
+        <input type="checkbox" name="gender" value="Laki-laki"> Laki-laki
+        <input type="checkbox" name="gender" value="Perempuan"> Perempuan
+        <input type="checkbox" name="gender" value="Perempuan"> Perempuan
+        <br><br>
+
+        <!-- method API:
+        1. GET (mengambil dan membaca data dari server)
+        2. POST (mengirim data baru ke server)
+        3. PUT (memperbarui atau mengganti data yang sudah ada di server)
+        4. PATCH (memperbarui sebagian data yang sudah ada di server)
+        5. DELETE (menghapus data dari server) -->
+
+        <!-- bisa ini -->
+        <input type="date" name="tanggal" value="2024-06-01">
+
+        <!-- bisa ini -->
+        <input type="datetime-local" name="waktu" value="2024-06-01T12:00">
+
+        <input type="submit" value="Go To Biodata" formaction="biodata.html">
+    </form>
+</body>
+</html>
